@@ -1,0 +1,114 @@
+/* shared styles */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header starts */
+
+header {
+    background-image: url('../images/banner/banner1.png');
+    max-width: 1600px;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding: 216px 230px 364px 845px;
+    text-align: right;
+
+}
+
+.header-title {
+
+    color: #151414;
+    /* text-align: right; */
+    font-size: 65px;
+    font-weight: 700;
+
+}
+
+.header-description {
+    color: #444343;
+    /* text-align: right; */
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.contact-btn {
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0px;
+    padding: 20px 21px 25px 26px;
+
+
+}
+
+/* failure section starts */
+.failure {
+    display: flex;
+    align-items: center;
+    padding: 0px 200px 0px 250px;
+    /* margin: 20px 0px; */
+    gap: 50px;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+
+
+}
+
+.section-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ul li {
+    color: #444343;
+    f font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* my plan starts */
+.section-column-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.my-plan-section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+.item-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.item-info {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.my-plan img{
+    text-align: center;
+}
