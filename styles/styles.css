@@ -12,6 +12,10 @@ header {
     background-repeat: no-repeat;
 }
 
+main {
+    max-width: 1000px;
+}
+
 .header {
     padding: 216px 230px 364px 845px;
     text-align: right;
@@ -79,15 +83,23 @@ ul li {
 }
 
 /* my plan starts */
+.my-plan {
+    padding: 0px 200px 0px 500px;
+}
+
 .section-column-container {
     display: flex;
     justify-content: space-around;
+    /* justify-content: center; */
     gap: 30px;
+    padding: 0px 200px 0px 250px;
 }
-.item{
+
+.item {
     /* justify-content: center; */
     padding: 50px 30px;
     text-align: center;
+
 }
 
 .my-plan-section-title {
@@ -114,7 +126,71 @@ ul li {
     font-weight: 500;
 
 }
-.my-plan img{
+
+.my-plan img {
     text-align: center;
 }
+
 /* positive mindset starts */
+
+.positive-mindset {
+    background-image: url('../images/watch.png');
+    background-position: ;
+    width: 1140px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    padding: 50;
+/* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%); */
+}
+
+.third-section-container {
+    padding: 50px 250px 50px 50px;
+}
+/* footer starts */
+.footer-container{
+    width: 1600px;
+    height: 577px;
+    background: var(--Dark-01, #151414);
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: ;
+}
+.footer-column-title{
+    color: #F8F8F8;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-description{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+.footer-column-left{
+    padding: 100px 885px 100px 150px;
+}
+.footer-column-title{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.input-footer{
+    width: 325px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid #FFF;
+}
+.footer-column{
+    padding: 100px 100px 100px 100px;
+}
