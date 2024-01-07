@@ -84,6 +84,11 @@ ul li {
     justify-content: space-around;
     gap: 30px;
 }
+.item{
+    /* justify-content: center; */
+    padding: 50px 30px;
+    text-align: center;
+}
 
 .my-plan-section-title {
     color: #151414;
@@ -112,3 +117,4 @@ ul li {
 .my-plan img{
     text-align: center;
 }
+/* positive mindset starts */
